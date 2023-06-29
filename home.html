@@ -1,0 +1,50 @@
+<html>
+<head> <title> dungeonsbase</title>
+    <link href="dungonbase.css"rel=stylesheet>
+    <link rel="icon" type="image/x-icon" href="images_dungeonbase/favicon.ico">
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+    <ul id="myMenu">
+      <li><a href="glossary.html">glossary</a></li>
+      <li><a href="shop.html">shop</a></li>
+      <li><a href="generater.html">generater</a></li>
+      <li><a href="aboutus.html">about us</a></li>
+      <li><a href="onlineplay.html">play online</a></li>
+      </ul>
+    <script>
+        function myFunction() {
+          // Declare variables
+          var input, filter, ul, li, a, i;
+          input = document.getElementById("mySearch");
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myMenu");
+          li = ul.getElementsByTagName("li");
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+      
+    </nav>    
+</div>
+
+</head>
+
+<body>
+
+
+    <p style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQkh2Vw0eXEHoZK6Kass9RxRxIjcpPhvHOPA&usqp=CAU) ;height: 500px; width: 1200px;"></p>
+    <h1> <u> welcome to dungeonbase! </u></h1><br>
+    <p> we are a database ment for dungeon and dragon lovers! <br>
+         we have tips, facts and a great store, so you can buy all your dungeon and dragon needs! <br></p>        
+        
+        
+ </body>
+</html>

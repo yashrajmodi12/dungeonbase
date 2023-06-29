@@ -1,0 +1,70 @@
+
+html{
+   font-family: sans-serif;
+   background-color:darkkhaki ;
+   scroll-behavior: smooth;
+
+}
+nav{
+display: flex;
+gap: 5%;
+flex-direction: row;
+justify-content: end;
+ }
+ p{
+    color:orangered;
+ }
+
+ .container{
+  margin: 20px;
+  padding: 20px;
+ }
+ 
+ .subforum{
+  margin-top: 20px;
+ }
+
+ .subforum-tittle{
+  background-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 4px;
+ }
+
+ /* global */
+
+ *{
+  box-sizing: border-box;
+ }
+
+ html{
+  font-size: 14px;
+  font-family: 'titillium web', sans-serif;
+ }
+ 
+ /* Style the search box */
+#mySearch {
+   width: 100%;
+   font-size: 18px;
+   padding: 11px;
+   border: 1px solid #ddd;
+ }
+ 
+ /* Style the navigation menu */
+ #myMenu {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ /* Style the navigation links */
+ #myMenu li a {
+   padding: 12px;
+   text-decoration: none;
+   color: black;
+   display: block
+ }
+ 
+ #myMenu li a:hover {
+   background-color: #eee;
+ }
